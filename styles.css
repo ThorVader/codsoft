@@ -1,0 +1,155 @@
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1 {
+    padding-bottom: 6.5%;
+}
+
+.featureHeading {
+    display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.flex-container {
+    display: column;
+}
+.containerf{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: small;
+        
+}
+.navv{
+    list-style: none; /* Removes the bullet points*/  
+}
+
+.navv li a {
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #000; /* Set the color of the links (adjust as needed) */
+    
+}  
+
+/******ICONS**************ICONS*******************ICONS*/
+ .bi-facebook {
+    fill: #3b5998; 
+}/* Facebook blue color */
+.bi-whatsapp {
+    fill: #25d366; 
+
+  }/* WhatsApp green color */
+  .bi-twitter-x {
+    fill: #1da1f2;
+    
+ }/* Twitter blue color */
+
+.bi-instagram {
+    fill: #e4405f;
+
+  }/* Instagram pink color */
+
+
+
+
+/*********************FOOTER***************FOOTER******************************FOOTER**********************/
+footer {
+    
+    margin-top: 20px;
+    
+}
+ /***********HYGIENE SECTION***************HYGIENE SECTION*****************HYGIENE SECTION***************************************************************************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Choose your preferred font */
+  }
+
+  .hero-section {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed (100% of the viewport height) */
+    background: url(./pexels-this-is-engineering-19816447.jpg) center/cover no-repeat; /* Replace 'your-image.jpg' with your image URL or path */
+    color: #fff; /* Text color on the overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Adjust the overlay color and opacity as needed */
+    z-index: -1; /* Place the overlay behind the text */
+  }
+
+  .overlay-text {
+    z-index: 1; /* Place the text above the overlay */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+
+  .flex-container2{
+    display: flex;
+    
+  }
+
+  .flex-container3{
+    display: flex;
+  }
+/*********MEDIA QUERIES************MEDIA QUERIES*************************MEDIA QUERIES*/
+
+/*FEATURES SECTION*/
+  @media (max-width: 767px) {
+    .featureHeading {margin-top: 10%;
+        
+    }
+    
+  }
+
+  @media (max-width:460px) {
+    .flex-container2{
+        display: grid;
+    }
+  }
+
+  @media (max-width:460px) {
+    .flex-container2{
+        display: grid;
+    }
+  }
+
+  h3{
+    color:#1da1f2; 
+  }
+  .headingText{
+    font-weight: bold;
+    font-size: 2em;
+  }
+  h5{
+    color: #1da1f2;
+  }
+  p{
+    color: beige;
+  }
+
+  body{
+    background-color: #000;
+  }
+ hr{
+    color:#1da1f2; ;
+ }
+ li{
+    color: beige;
+ }
+ a{
+    color: beige;
+ }
